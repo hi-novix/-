@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>西野コンサルティング — 営業×ITで成果を出す</title>
+  <meta name="description" content="営業代行の実務経験を活かし、Notionを含むITツールで予約・業務を効率化。初期費用を抑えた導入支援・SaaS導入コンサルティング。" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%23306dcf'/%3E%3Ctext x='50' y='58' font-size='48' text-anchor='middle' fill='white' font-family='system-ui,Segoe UI,Roboto,Helvetica,Arial' %3EN%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">西野コンサルティング</a>
+      <nav class="nav">
+        <a href="#service">サービス</a>
+        <a href="#works">実績</a>
+        <a href="#about">私たち</a>
+        <a href="#contact" class="btn-primary">お問い合わせ</a>
+      </nav>
+      <button class="nav-toggle" aria-label="メニュー">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>営業の現場力 × ITで、業務をぐっと効率化</h1>
+          <p>営業代行で培った現場ノウハウを元に、Notionハイブリッド予約やSaaS導入で「売れる仕組み」を作ります。初期費用を抑え、在庫不要で始められる代理店/導入支援を提供。</p>
+          <div class="hero-ctas">
+            <a href="#contact" class="btn-primary">無料相談を申し込む</a>
+            <a href="#service" class="btn-ghost">サービスを見る</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <!-- シンプルなSVGイメージ -->
+          <svg viewBox="0 0 600 400" class="illustration" xmlns="http://www.w3.org/2000/svg">
+            <rect width="600" height="400" rx="20" fill="#f4f8ff"/>
+            <g transform="translate(40,40)">
+              <rect x="0" y="0" width="260" height="120" rx="10" fill="#fff" stroke="#d7e6ff"/>
+              <rect x="0" y="140" width="520" height="200" rx="10" fill="#fff" stroke="#d7e6ff"/>
+              <circle cx="420" cy="80" r="52" fill="#306dcf"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="section">
+      <div class="container">
+        <h2 class="section-title">サービス</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Notionハイブリッド予約構築</h3>
+            <p>Notionを中心に、自動化ツールと手動管理を組み合わせた実践的な予約システムを構築します。既存顧客の運用に合わせ柔軟に設計。</p>
+          </article>
+          <article class="card">
+            <h3>営業代行・導入支援</h3>
+            <p>営業の現場経験を活かして、営業フロー設計〜SaaS導入までワンストップで支援。KPI設計やトークスクリプトも対応。</p>
+          </article>
+          <article class="card">
+            <h3>代理店/販売パートナー支援</h3>
+            <p>初期費用・在庫不要の販売代理スキーム構築や、パートナー管理の仕組み作りを支援します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section alt">
+      <div class="container">
+        <h2 class="section-title">実績・事例</h2>
+        <ul class="works-list">
+          <li>
+            <strong>美容室チェーン様:</strong> Notion＋Zapierで予約管理を自動化、電話応対を30%削減。
+          </li>
+          <li>
+            <strong>SaaS導入支援:</strong> 営業フロー再設計によりリード転換率が18%向上。
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title">私たちについて</h2>
+          <p>営業代行から始めたチームです。現場での実務経験を最大限に活かし、ツールと人の両面から成果を出します。小規模〜中堅企業の立ち上げやDX支援が得意です。</p>
+          <p>対応例: Notion予約ハイブリッド、業務フロー設計、SaaS選定・導入、営業トレーニング。</p>
+        </div>
+        <aside class="contact-cta">
+          <h3>今すぐ相談する</h3>
+          <p>初回30分のオンライン相談は無料です。お気軽にご連絡ください。</p>
+          <a href="#contact" class="btn-primary">相談を申し込む</a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2 class="section-title">お問い合わせ</h2>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            お名前（必須）
+            <input type="text" name="name" id="name" required placeholder="山田 太郎" />
+          </label>
+          <label>
+            会社名・団体名
+            <input type="text" name="company" id="company" placeholder="例: 株式会社○○" />
+          </label>
+          <label>
+            メールアドレス（必須）
+            <input type="email" name="email" id="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            ご相談内容（必須）
+            <textarea name="message" id="message" rows="6" required placeholder="例: Notionで予約を作りたい"></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">送信する</button>
+            <button type="button" id="mailtoBtn" class="btn-ghost">メールアプリで開く</button>
+          </div>
+
+          <p class="form-note">※このフォームはブラウザのメールアプリ（mailto:）へ移行します。サーバー送信を希望ならご相談ください。</p>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>メール:</strong> info@example.com</p>
+          <p><strong>所在地:</strong> 大阪府（リモート対応可）</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> 西野コンサルティング — 営業×ITで成果を。</p>
+      <nav class="footer-nav">
+        <a href="#service">サービス</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
